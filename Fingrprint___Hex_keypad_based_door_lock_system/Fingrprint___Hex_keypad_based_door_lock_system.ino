@@ -213,7 +213,12 @@ void loop() {
     display.drawBitmap(0, 0, logo_bmp, LOGO_WIDTH, LOGO_HEIGHT, 1);
     display.display();
     customKey = customKeypad.getKey();
-    if (customKey == 'C' || customKey == 'A')
+    switch (customKey) {
+      case 'C':
+        break;
+      case 'A':
+        break;
+    }
     break;
     delay(1000);
   }
