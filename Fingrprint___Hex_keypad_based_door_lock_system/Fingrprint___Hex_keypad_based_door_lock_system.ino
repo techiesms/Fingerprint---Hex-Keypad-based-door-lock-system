@@ -219,7 +219,7 @@ void loop() {
       case 'A':
         break;
     }
-    break;
+    //break; *Commented, as this is not a part of a loop or condition, it blocks compilation//
     delay(1000);
   }
 
